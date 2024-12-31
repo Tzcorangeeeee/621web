@@ -14,7 +14,7 @@
   width: 100%;
   border: 1px solid black;
   position: relative;
-  top: -60px;
+  top: -75px;
   height: 690px;
 }
 .el-carousel__item h3 {

@@ -66,6 +66,7 @@
       </a></div>
       <div />
     </div>
+    <div class="lang"><a href="">English</a></div>
   </div>
 </template>
 
@@ -125,6 +126,9 @@
     display: block;
     border: 5px solid orange;
   }
+  .mi{
+    height: 70px;
+  }
   .qi:hover .down{
     display: block;
     position: fixed;
@@ -132,6 +136,9 @@
     left: 580px;
     border: 5px solid deeppink;
     line-height: 60px;
+  }
+  .qi{
+    height: 70px;
   }
   .bu:hover .down{
     display: block;
@@ -141,6 +148,9 @@
     border: 5px solid yellow;
     line-height: 60px;
   }
+  .bu{
+    height: 70px;
+  }
   .miao:hover .down{
     display: block;
     position: fixed;
@@ -148,6 +158,9 @@
     left: 840px;
     border: 5px solid greenyellow;
     line-height: 60px;
+  }
+  .miao{
+    height: 70px;
   }
   .wu:hover .down{
     display: block;
@@ -157,6 +170,9 @@
     border: 5px solid darkblue;
     line-height: 60px;
   }
+  .wu{
+    height: 70px;
+  }
   .down ul a{
     list-style: none;
     color: black;
@@ -165,6 +181,16 @@
   }
   .down li:hover{
     background-color: grey;
+  }
+}
+.lang{
+  position: fixed;
+  right: 150px;
+  top: 30px;
+  font-size: 30px;
+  a{
+    text-decoration: none;
+    color: white;
   }
 }
 .el-dropdown-link {

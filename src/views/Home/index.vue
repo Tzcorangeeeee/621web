@@ -1,11 +1,12 @@
 <script setup>
-import Home from '@/views/Home/Home.vue'
 import Banner from '@/views/Home/Banner.vue'
+import News from '@/views/Home/News.vue'
+
 </script>
 
 <template>
-  <Home></Home>
-  <Banner></Banner>
+  <Banner />
+  <News />
 </template>
 
 <style scoped>
